@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDDDCCAfSgAwIBAgIRAJY3n1n5v11MqhkkbO+l6iYwDQYJKoZIhvcNAQELBQAw
+    LzEtMCsGA1UEAxMkMDJiMTNjYmMtMjRjZS00ZjNhLWIxMTUtMGQ1MTE3ZjFkZjJm
+    MB4XDTE5MDUxNDA3MDc0NloXDTI0MDUxMjA4MDc0NlowLzEtMCsGA1UEAxMkMDJi
+    MTNjYmMtMjRjZS00ZjNhLWIxMTUtMGQ1MTE3ZjFkZjJmMIIBIjANBgkqhkiG9w0B
+    AQEFAAOCAQ8AMIIBCgKCAQEAsE04w3PgB8GRq+R3uu8PMmUvdwDwrnTIuzZNia35
+    gho7Vr4TP9BvT7tNtuR1jiN/Jbepd5FeM2OpCsxLGJtZIbjNIHnoaODBgytSHJ1r
+    pH+cER922USIKVrdWCQ+cXqcVyB6H8QLIAaC8zRN493ZPf24nUqpW2e2tPQk82Sn
+    vVx9kJhzpdGQCeMW/fOiBKs8oBQEooipsl9r0yL2tVI9sgI5gneTfpaXZW3TkJsR
+    2WzfS1/WzYSsp7fdBOtsv/yUZ2dGW2cqjXwGVToLua4fn31JuB8ezvvY/UtAIwWe
+    W/aZJSqNXNhennQpzB2KQ8ShNmEhwi9mEoDKVHnpb8NB1QIDAQABoyMwITAOBgNV
+    HQ8BAf8EBAMCAgQwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA
+    monNo6sDhYvzOdIAK/tCswm7lNdVr1Od3F1nYJnpoUZo4mzGTnLBIQbKXwFZD330
+    5U6uEOptqBFG7W5hgl2b8GQgl1VOgjx4VMrf1KDZBgnMhiabY1gizCOKccKuuska
+    tNSWHVwWq9OL3mV7Nx9KbaxKZ2GmAZykesiMrhL8biC23xltH4eFRHri5MauX87o
+    46Lnk+TUil3FrqhTlYonXEUhsfqqvmOxaCuZ0Dytm8oKfynQBP5CgH52s5totPTt
+    HhGuyLga/fpwed6LIfPylzEf1v4C/DRXDYWMDLWzKxbCY75EO/CRwDkulHmRPM4V
+    GuWe4rKxvMbduHwPUXW7mg==
+    -----END CERTIFICATE-----
+  clusterName: marescratch
+  jx-install-version: 2.0.0-dev+14712d202
+  kubeProvider: gke
+  projectID: apps-dev-229310
+  region: ""
+  secretsLocation: vault
+  server: https://104.155.21.26
+  systemVaultName: jx-vault-marescratch
+  zone: europe-west1-c
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
